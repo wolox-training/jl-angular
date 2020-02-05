@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.card-description {
+  margin: 18px 6px;
+}
+
+.default-text {
+  color: #828282;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.information {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.title {
+  color: #000;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.small-title {
+  color: #828282;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
