@@ -10,18 +10,26 @@
 
 .photo-detail {
   height: 368px;
+  margin-right: 52px;
   width: 261px;
 }
 
 .information {
   display: flex;
+  flex: 1;
   flex-flow: column wrap;
-  margin: 0 52px;
 }
 
+
 .card-description {
-  margin: 18px 6px;
+  margin-bottom: 36px;;
 }
+
+.card-description:first-child {
+  border-bottom: solid 4px #BED23C;
+  padding-bottom: 20px;
+}
+
 
 .default-text {
   color: #828282;
