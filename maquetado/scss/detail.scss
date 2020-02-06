@@ -1,6 +1,22 @@
 .card {
+  background-color: #FFF;
+  box-shadow: 4px 4px 10px 0 rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  height: 416px;
+  padding: 24px 24px;
+  width: 900px;
+}
+
+.photo-detail {
+  height: 368px;
+  width: 261px;
+}
+
+.information {
   display: flex;
   flex-flow: column wrap;
+  margin: 0 52px;
 }
 
 .card-description {
@@ -13,7 +29,7 @@
   line-height: 24px;
 }
 
-.information {
+.subtitle {
   color: #000;
   font-size: 20px;
   font-weight: bold;
