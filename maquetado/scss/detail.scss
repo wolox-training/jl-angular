@@ -11,22 +11,30 @@
 
 .photo-detail {
   height: 370px;
+  margin-right: 50px;
   width: 260px;
 }
 
 .information {
   display: flex;
   flex-flow: column wrap;
-  margin: 0 50px;
+  flex-grow: 1;
 }
 
+
 .book-description {
-  margin-bottom: 36px;
+  margin-bottom: 35px;;
+}
+
+.book-description:first-child {
+  border-bottom: solid 4px $earls-green;
+  padding-bottom: 20px;
 }
 
 .bold {
   font-weight: bold;
 }
+
 
 .default-text {
   color: $gray;
