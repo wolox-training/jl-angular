@@ -4,27 +4,26 @@
   background-color: $white;
   box-shadow: 4px 4px 10px 0 $opaque-black;
   display: flex;
-  flex-direction: row;
   height: 415px;
-  padding: 24px 24px;
+  padding: 25px;
   width: 900px;
 }
 
 .photo-detail {
-  height: 368px;
-  margin-right: 52px;
-  width: 261px;
+  height: 370px;
+  margin-right: 50px;
+  width: 260px;
 }
 
 .information {
   display: flex;
-  flex: 1;
   flex-flow: column wrap;
+  flex-grow: 1;
 }
 
 
 .book-description {
-  margin-bottom: 36px;;
+  margin-bottom: 35px;;
 }
 
 .book-description:first-child {
