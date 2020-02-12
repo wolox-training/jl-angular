@@ -4,7 +4,6 @@
   background-color: $white;
   box-shadow: 4px 4px 10px 0 $opaque-black;
   display: flex;
-  flex-direction: row;
   height: 415px;
   margin: auto;
   padding: 25px;
@@ -32,13 +31,13 @@
 
 .information {
   display: flex;
-  flex: 1;
   flex-flow: column wrap;
+  flex-grow: 1;
 }
 
 
 .book-description {
-  margin-bottom: 35px;;
+  margin-bottom: 35px;
 }
 
 .book-description:first-child {
