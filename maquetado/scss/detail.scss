@@ -6,22 +6,22 @@
   display: flex;
   flex-direction: row;
   height: 415px;
-  padding: 24px 24px;
+  margin: auto;
+  padding: 25px;
   position: relative;
+  top: 100px;
   width: 900px;
 }
 
 .photo-detail {
-  height: 368px;
-  margin-right: 52px;
-  width: 261px;
+  height: 370px;
+  margin-right: 50px;
+  width: 260px;
 }
 
 .photo::after {
-  background: url('/Users/jersonlopezcastano/Documents/Trainning/jl-angular/maquetado/assets/badge.png') no-repeat;
-  background-size: 80px 95px;
+  background: center/contain no-repeat url('./assets/badge.png');
   content: '';
-  display: block;
   height: 95px;
   left: 235px;
   position: absolute;
@@ -38,7 +38,7 @@
 
 
 .book-description {
-  margin-bottom: 36px;;
+  margin-bottom: 35px;;
 }
 
 .book-description:first-child {
