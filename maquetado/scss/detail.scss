@@ -5,7 +5,10 @@
   box-shadow: 4px 4px 10px 0 $opaque-black;
   display: flex;
   height: 415px;
+  margin: auto;
   padding: 25px;
+  position: relative;
+  top: 100px;
   width: 900px;
 }
 
@@ -13,6 +16,17 @@
   height: 370px;
   margin-right: 50px;
   width: 260px;
+}
+
+.photo::after {
+  background: center/contain no-repeat url('./assets/badge.png');
+  content: '';
+  height: 95px;
+  left: 235px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(25deg);
+  width: 80px;
 }
 
 .information {
@@ -23,7 +37,7 @@
 
 
 .book-description {
-  margin-bottom: 35px;;
+  margin-bottom: 35px;
 }
 
 .book-description:first-child {
