@@ -1,5 +1,9 @@
 @import 'colors';
 
+.body {
+  background-color: $wild-sand;
+}
+
 .card {
   background-color: $white;
   box-shadow: 4px 4px 10px 0 $opaque-black;
@@ -35,7 +39,6 @@
   flex-grow: 1;
 }
 
-
 .book-description {
   margin-bottom: 35px;
 }
@@ -48,7 +51,6 @@
 .bold {
   font-weight: bold;
 }
-
 
 .default-text {
   color: $gray;
@@ -72,4 +74,47 @@
   color: $gray;
   font-size: 24px;
   line-height: 28px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-list {
+  height: 200px;
+  margin-bottom: 10px;
+  width: 145px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto 0;
+  width: 950px;
+}
+
+.list-title {
+  color: $black;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.facebook {
+  background-color: $white;
+  box-shadow: 4px 4px 10px 0 $opaque-black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-bottom: 35px;
+  margin-right: 35px;
+  padding: 30px 30px 25px;
+  width: 200px;
+}
+
+.list-author {
+  color: $gray;
+  font-size: 14px;
+  line-height: 17px;
 }
