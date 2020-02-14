@@ -90,7 +90,7 @@
 .books {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px auto 0;
+  margin: 105px auto 0;
   width: 950px;
 }
 
@@ -117,4 +117,24 @@
   color: $gray;
   font-size: 14px;
   line-height: 17px;
+}
+
+.navbar {
+  align-items: center;
+  background-color: $white;
+  border-top: solid 6px $cerulean;
+  box-shadow: 0 4px 10px 0 $opaque-black;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  max-width: 100%;
+  padding: 0 245px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  height: 70px;
+  width: 210px;
 }
