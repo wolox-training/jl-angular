@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 @import 'equalizer';
+@import 'index';
 @import 'detail';
 
 * {
   font-family: 'Roboto', 'serif';
+}
+
+.body {
+  background-color: $wild-sand;
 }
