@@ -41,3 +41,21 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+.navbar {
+  align-items: center;
+  background-color: $white;
+  border-top: solid 6px $cerulean;
+  box-shadow: 0 4px 10px 0 $opaque-black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 calc((100% - 950px) / 2 + 40px) 0 calc((100% - 950px) / 2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 70px;
+  width: 210px;
+}

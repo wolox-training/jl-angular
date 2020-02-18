@@ -8,7 +8,6 @@
   margin: auto;
   padding: 25px;
   position: relative;
-  top: 100px;
   width: 900px;
 }
 
@@ -70,4 +69,27 @@
   color: $gray;
   font-size: 24px;
   line-height: 28px;
+}
+
+.back-arrow {
+  display: block;
+  margin: 45px auto 50px;
+  padding-left: 25px;
+  position: relative;
+  width: 900px;
+
+  &::before {
+    background: center/contain no-repeat url('./assets/back-arrow-20.png');
+    content: '';
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+  }
+}
+
+.back-link {
+  color: $black;
+  font-size: 20px;
+  line-height: 23px;
 }
