@@ -50,11 +50,11 @@
   display: flex;
   justify-content: space-between;
   left: 0;
-  max-width: 100%;
-  padding: 0 245px;
+  padding: 0 calc((100% - 950px) / 2 + 40px) 0 calc((100% - 950px) / 2);
   position: fixed;
   right: 0;
   top: 0;
+  width: 100%;
 }
 
 .logo {
