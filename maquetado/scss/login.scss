@@ -1,0 +1,44 @@
+@import 'colors';
+
+.login {
+  background-color: $wild-sand;
+  border-top: solid 8px $cerulean;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+  margin: 180px auto;
+  padding: 25px;
+  width: 300px;
+}
+
+.text-from {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input-form {
+  border-radius: 5px;
+  height: 30px;
+}
+
+.login-button {
+  background-color: $earls-green;
+  border-radius: 5px;
+  color: $white;
+  height: 30px;
+  width: 100%;
+}
+
+.splitter {
+  border: 1px solid $silver-chalice;
+}
+
+.sign-up-button {
+  background-color: $wild-sand;
+  border: 2px solid $earls-green;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: $earls-green;
+  height: 30px;
+}
