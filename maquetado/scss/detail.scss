@@ -1,6 +1,5 @@
 @import 'colors';
-$badge-height: 95px;
-$badge-width: 80px;
+@import 'sizes';
 
 .card {
   background-color: $white;
@@ -38,11 +37,11 @@ $badge-width: 80px;
 
 .book-description {
   margin-bottom: 35px;
-}
 
-.book-description:first-child {
-  border-bottom: solid 4px $earls-green;
-  padding-bottom: 20px;
+  &:first-child {
+    border-bottom: solid 4px $earls-green;
+    padding-bottom: 20px;
+  }
 }
 
 .bold {
@@ -96,8 +95,8 @@ $badge-width: 80px;
   line-height: 23px;
 }
 
-@media only screen and (max-width: 1024px) {
-  .body {
+@media only screen and (max-width: $small-laptops) {
+  .app-container {
     align-items: center;
     display: flex;
     flex-direction: column-reverse;
@@ -136,10 +135,10 @@ $badge-width: 80px;
 
   .book-description {
     margin-bottom: 20px;
-  }
 
-  .book-description:first-child {
-    padding-bottom: 10px;
+    &:first-child {
+      padding-bottom: 10px;
+    }
   }
 
   .default-text {
