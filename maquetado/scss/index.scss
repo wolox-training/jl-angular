@@ -33,7 +33,12 @@
   height: 300px;
   margin: 0 35px 35px 0;
   padding: 30px 30px 25px;
+  transition: transform 0.3s;
   width: 200px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .list-author {

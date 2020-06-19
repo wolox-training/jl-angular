@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'sizes';
 
 .card {
   background-color: $white;
@@ -20,12 +21,12 @@
 .photo::after {
   background: center/contain no-repeat url('./assets/badge.png');
   content: '';
-  height: 95px;
+  height: $badge-height;
   left: 235px;
   position: absolute;
   top: 10px;
   transform: rotate(25deg);
-  width: 80px;
+  width: $badge-width;
 }
 
 .information {
@@ -36,11 +37,11 @@
 
 .book-description {
   margin-bottom: 35px;
-}
 
-.book-description:first-child {
-  border-bottom: solid 4px $earls-green;
-  padding-bottom: 20px;
+  &:first-child {
+    border-bottom: solid 4px $earls-green;
+    padding-bottom: 20px;
+  }
 }
 
 .bold {
@@ -92,4 +93,75 @@
   color: $black;
   font-size: 20px;
   line-height: 23px;
+}
+
+@media only screen and (max-width: $small-laptops) {
+  .app-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    align-items: center;
+    flex-direction: column;
+    height: 570px;
+    margin-top: 100px;
+    padding: 40px 20px 0 20px;
+    width: 335px;
+  }
+
+  .photo-detail {
+    height: 100%;
+    width: 100%;
+  }
+
+  .photo {
+    height: 300px;
+    margin-bottom: 20px;
+    width: 215px;
+
+    &::after {
+      height: calc(#{$badge-height} - #{$badge-height} * 0.3);
+      top: 25px;
+      transform: rotate(15deg);
+      width: calc(#{$badge-width} - #{$badge-width} * 0.3);
+    }
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  .book-description {
+    margin-bottom: 20px;
+
+    &:first-child {
+      padding-bottom: 10px;
+    }
+  }
+
+  .default-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .small-title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .back-arrow {
+    margin: 20px auto 50px;
+    width: 70px;
+  }
 }
